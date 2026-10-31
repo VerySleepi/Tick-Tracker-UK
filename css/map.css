@@ -1,4 +1,86 @@
-#map {
-    display: flex;;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     height: 100vh;
+    width: 100vw;
+    font-family: 'Figtree';
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(150px, 1.5fr) minmax(150px, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "filter filter"
+        "map sidebar";
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/Elanco_idFAGPbHXF_1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: space;
+    background-size: 250px;
+}
+
+#filter-container {
+    grid-area: filter;
+    width: 100%;
+    height: 200px;
+    background-color: #0067b1;
+}
+
+/* .container {
+    background-color: #f4f4f8;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1rem;
+
+    /* Following tutorial by Kevin Powell for glassy effect /*
+    border: 1px solid transparent;
+    background:
+        radial-gradient(circle at 50% 250%, #e8eaee, #f7f7f8) padding-box,
+        linear-gradient(#f8f6f6, #dfdede) border-box;
+} */
+
+/* Followed tutorial by Kevin Powell for glassy effect */
+.container {
+    --border-width: 2px;
+    padding: 20px;
+    border-radius: 1rem;
+    position: relative;
+    background: hsla(260, 10%, 94%, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    border-radius: inherit;
+    border: var(--border-width) solid transparent;
+    background: linear-gradient(#fffdfe, #cccaca) border-box;
+    mask:
+        linear-gradient(black 0 0) border-box, linear-gradient(black 0 0) padding-box;
+    mask-composite: subtract;
+}
+
+.container:has(#map) {
+    grid-area: map;
+    margin: 10px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#map {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }

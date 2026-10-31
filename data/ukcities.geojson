@@ -1,0 +1,318 @@
+{
+    "type": "FeatureCollection",
+    "name": "ukcities",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "London",
+                "city_ascii": "London",
+                "lat": 51.5072,
+                "lng": -0.1275,
+                "admin_name": "London, City of",
+                "admin_code": "GB-LND",
+                "country_name": "England",
+                "population": "11262000",
+                "density": "6479.9",
+                "timezone": "Europe/London",
+                "ranking": "1",
+                "id": "1826645935"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1275,
+                    51.5072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Birmingham",
+                "city_ascii": "Birmingham",
+                "lat": 52.48,
+                "lng": -1.9025,
+                "admin_name": "Birmingham",
+                "admin_code": "GB-BIR",
+                "country_name": "England",
+                "population": "2590363",
+                "density": "4246.6",
+                "timezone": "Europe/London",
+                "ranking": "1",
+                "id": "1826423213"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9025,
+                    52.48
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Southampton",
+                "city_ascii": "Southampton",
+                "lat": 50.9025,
+                "lng": -1.4042,
+                "admin_name": "Southampton",
+                "admin_code": "GB-STH",
+                "country_name": "England",
+                "population": "855569",
+                "density": "5268.6",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826602892"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4042,
+                    50.9025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Bristol",
+                "city_ascii": "Bristol",
+                "lat": 51.4536,
+                "lng": -2.5975,
+                "admin_name": "Bristol, City of",
+                "admin_code": "GB-BST",
+                "country_name": "England",
+                "population": "707412",
+                "density": "4310.8",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826921049"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5975,
+                    51.4536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Glasgow",
+                "city_ascii": "Glasgow",
+                "lat": 55.8611,
+                "lng": -4.25,
+                "admin_name": "Glasgow City",
+                "admin_code": "GB-GLG",
+                "country_name": "Scotland",
+                "population": "626410",
+                "density": "189.9",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826836462"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.25,
+                    55.8611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Manchester",
+                "city_ascii": "Manchester",
+                "lat": 53.479,
+                "lng": -2.2452,
+                "admin_name": "Manchester",
+                "admin_code": "GB-MAN",
+                "country_name": "England",
+                "population": "547627",
+                "density": "4737.3",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826246335"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2452,
+                    53.479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Leeds",
+                "city_ascii": "Leeds",
+                "lat": 53.7975,
+                "lng": -1.5436,
+                "admin_name": "Leeds",
+                "admin_code": "GB-LDS",
+                "country_name": "England",
+                "population": "536280",
+                "density": "972.1",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826343963"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5436,
+                    53.7975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Sheffield",
+                "city_ascii": "Sheffield",
+                "lat": 53.3808,
+                "lng": -1.4703,
+                "admin_name": "Sheffield",
+                "admin_code": "GB-SHF",
+                "country_name": "England",
+                "population": "518090",
+                "density": "1408.1",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826289852"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4703,
+                    53.3808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Liverpool",
+                "city_ascii": "Liverpool",
+                "lat": 53.4072,
+                "lng": -2.9917,
+                "admin_name": "Liverpool",
+                "admin_code": "GB-LIV",
+                "country_name": "England",
+                "population": "513441",
+                "density": "4590.9",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826558678"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9917,
+                    53.4072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Edinburgh",
+                "city_ascii": "Edinburgh",
+                "lat": 55.95,
+                "lng": -3.1833,
+                "admin_name": "Edinburgh, City of",
+                "admin_code": "GB-EDH",
+                "country_name": "Scotland",
+                "population": "488050",
+                "density": "1884.4",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826492520"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1833,
+                    55.95
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Leicester",
+                "city_ascii": "Leicester",
+                "lat": 52.6361,
+                "lng": -1.1331,
+                "admin_name": "Leicester",
+                "admin_code": "GB-LCE",
+                "country_name": "England",
+                "population": "464395",
+                "density": "5047.8",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826431946"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1331,
+                    52.6361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Newcastle",
+                "city_ascii": "Newcastle",
+                "lat": 54.978,
+                "lng": -1.6102,
+                "admin_name": "Newcastle upon Tyne",
+                "admin_code": "GB-NET",
+                "country_name": "England",
+                "population": "300196",
+                "density": "688.5",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826292220"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6102,
+                    54.978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "city": "Nottingham",
+                "city_ascii": "Nottingham",
+                "lat": 52.9561,
+                "lng": -1.1512,
+                "admin_name": "Nottingham",
+                "admin_code": "GB-NGM",
+                "country_name": "England",
+                "population": "289301",
+                "density": "3877.5",
+                "timezone": "Europe/London",
+                "ranking": "2",
+                "id": "1826122597"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1512,
+                    52.9561
+                ]
+            }
+        }
+    ]
+}

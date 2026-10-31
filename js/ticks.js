@@ -1,5 +1,4 @@
 
-getAllTickSightings();
 
 async function getAllTickSightings() {
 
@@ -13,16 +12,10 @@ async function getAllTickSightings() {
         const data = await response.json();
         let city = [];
         for (const sighting of data) {
-            if (!city.includes(sighting.location)) {
-                city.push(sighting.location);
-                console.log("Tick sightings data:", sighting.city);
-            }
-            else {
-                continue;
-            }
-
+            city.push(sighting)
         }
         console.log("Tick sightings data:", city);
+        return city;
     }
     catch(error) {
         console.error("Error fetching tick sightings:", error);
