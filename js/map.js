@@ -59,9 +59,7 @@ async function addTickSightings() {
                     let latlng = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
                     L.circle(latlng, { radius: 9000 }).bindPopup(`<b>${sighting.location}</b><br>Id:${sighting.id}<br>Date: ${sighting.date}`).addTo(map);
                 }
-                else {
-                    console.log(`No sightings for ${feature.properties.city}`);
-                }
+
             }
 
         }
